@@ -1,0 +1,9 @@
+class Name:
+    def __init__(self,name,rollno):
+        self.name=name
+        self.rollno=rollno
+        print("student data base added")
+    def student(self):
+        print(self.name,self.rollno)
+N=Name("Karan",1)
+N.student()
