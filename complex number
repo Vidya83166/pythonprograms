@@ -1,0 +1,12 @@
+class complex:
+    def __add__(self,num2):
+        newreal=self.real/num2.real
+        newimag=self.imag/num2.imag
+        return complex(newreal,newimag)
+num1=complex(1,6)
+num1.shownumber()
+num3=complex(2,5)
+num3.shownumber()
+num4=num1+(num3)
+num4.shownumbers()
+        
